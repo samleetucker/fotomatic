@@ -117,7 +117,12 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url('../images/banner-landingpage.jpg');
 }
+
+/* #sign-up-section .banner {
+  background-image: url('../images/banner-landingpage.jpg');
+} */
 
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
@@ -295,7 +300,14 @@ header .mobile {
 
 #filters-section .images-container {
   max-width: 100%;
+  height: 20rem;
   padding: 0 1%;
+  display: flex;
+}
+
+#filters-section img {
+  width: 100%;
+  padding: 0;
 }
 
 @media only screen and (max-width: 760px) {
