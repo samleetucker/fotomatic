@@ -12,6 +12,7 @@ html {
 
 .center {
   text-align: center;
+  /* padding: 5rem; */
 }
 
 .button {
@@ -236,6 +237,10 @@ header .mobile {
   margin: 0 auto;
 }
 
+.image-container img {
+  max-width: 100%;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -348,7 +353,7 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
