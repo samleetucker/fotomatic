@@ -224,7 +224,7 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-.feature {
+.feature .content {
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
@@ -278,6 +278,11 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  .feature .content {
+    margin: 0;
+    padding: 1.25rem 0 1.875rem 0;
+  }
 }
 
 /* Filters Section */
@@ -307,7 +312,6 @@ header .mobile {
 
 #filters-section .images-container {
   max-width: 100%;
-  height: 20rem;
   padding: 0 1%;
   display: flex;
 }
@@ -371,16 +375,16 @@ header .mobile {
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
