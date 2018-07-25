@@ -118,17 +118,19 @@ header .mobile {
   align-items: flex-start;
   height: 43.5rem;
   background-image: url('../images/banner-landingpage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-
-/* #sign-up-section .banner {
-  background-image: url('../images/banner-landingpage.jpg');
-} */
 
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  position: relative;
+  top: 170px;
+  left: 100px;
 }
 
 #sign-up-cta .content {
@@ -350,7 +352,7 @@ header .mobile {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
